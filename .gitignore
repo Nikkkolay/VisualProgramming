@@ -2,4 +2,4 @@ bin/
 obj/
 /packages/
 /Lab3
-/Lab4
+.vs/
