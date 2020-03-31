@@ -1,0 +1,34 @@
+﻿<Window x:Class="Lab7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Матрицы с определителем &lt; 0 отсортированные по&#10;возрастанию суммы элементов на главной диагонали:" 
+               HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Height="51" Width="312"/>
+        <ScrollViewer Margin="26,66,454,226" Background="WhiteSmoke"> 
+            <StackPanel Name="Exemple1" HorizontalAlignment="Center" /> 
+        </ScrollViewer>
+
+        <Label Content="Матрицы со схожей суммой на главной и побочной&#10;диагонали по убыванию схожести:" 
+               HorizontalAlignment="Left" Margin="403,10,0,0" VerticalAlignment="Top" Height="51" Width="312"/>
+        <ScrollViewer Margin="403,66,77,226" Background="WhiteSmoke">
+            <StackPanel Name="Exemple2" HorizontalAlignment="Center" />
+        </ScrollViewer>
+
+        <Label Content="Матрицы сгруппированные по сумме элементов на&#10;главной диагонали отсортированные по возрастанию:" 
+               HorizontalAlignment="Left" Margin="26,215,0,0" VerticalAlignment="Top" Height="51" Width="312"/>
+        <ScrollViewer Margin="26,271,454,21" Background="WhiteSmoke">
+            <StackPanel Name="Exemple3" HorizontalAlignment="Center" />
+        </ScrollViewer>
+
+        <Label Content="Все матрицы отсортированные по убыванию&#10;определителя:" 
+               HorizontalAlignment="Left" Margin="403,215,0,0" VerticalAlignment="Top" Height="51" Width="312"/>
+        <ScrollViewer Margin="403,271,77,21" Background="WhiteSmoke">
+            <StackPanel Name="Exemple4" HorizontalAlignment="Center" />
+        </ScrollViewer>
+    </Grid>
+</Window>

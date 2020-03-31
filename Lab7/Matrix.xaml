@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Lab7.Matrix"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Lab7"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="450">
+    <Border Background="AliceBlue" BorderBrush="Black" BorderThickness="3">
+        <UniformGrid Rows="3" Columns="3" >
+            <TextBlock Name="Item1" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item2" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item3" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item4" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item5" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item6" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item7" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item8" TextAlignment="Center" Margin="2"/>
+            <TextBlock Name="Item9" TextAlignment="Center" Margin="2"/>
+        </UniformGrid>
+    </Border>
+</UserControl>
