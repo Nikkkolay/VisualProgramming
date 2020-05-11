@@ -11,7 +11,11 @@
             <ColumnDefinition Width="0.6*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBox IsReadOnly="True" FontSize="25" Text="Позиция Y при последнем смещении&#xD;&#xA; мышки по оси Y внутри панели:" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="68" Width="495"/>
-        <Label Name="Label" FontSize="30" Content="" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="0,73,0,0"/>
+        
+        <TextBox IsReadOnly="True" FontSize="25" Text="Количество введенных Z:" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="35" Width="495"/>
+        <Label Name="_label" FontSize="30" Content="" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="0,40,0,0"/>
+
+        <TextBox IsReadOnly="True" FontSize="25" Text="Количество введенных фигур:" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="35" Width="495" Margin="0,95,0,0"/>
+        <Label Name="_labelF" FontSize="30" Content="" Grid.Column="1" HorizontalAlignment="Left"  VerticalAlignment="Top" Margin="0,135,0,0"/>
     </Grid>
 </Window>
